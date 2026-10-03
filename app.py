@@ -6,3 +6,4 @@ testing merge
 
 hey
 feature-test
+new line 3
