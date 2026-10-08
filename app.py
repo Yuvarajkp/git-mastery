@@ -1,14 +1,15 @@
+def print_line_one():
+    """Prints 'Line 1' to the console."""
+    print("Line 1")
+    return True
 
-new line1
-print("Feature branch change")
-HEAD
-testing merge
+def print_feature_branch_change():
+    """Prints 'Feature branch change' to the console."""
+    print("Feature branch change")
+    return True
 
-hey
-feature-test
-new line 3
-new line2
-Added new line3
-Added new line2
-new line from update-app
-New comment testing the command
+# Execute the conditional check with descriptive functions
+if print_line_one() and print_feature_branch_change():
+    print("Yes")
+else:
+    print("No")
