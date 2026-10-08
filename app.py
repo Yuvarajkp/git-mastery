@@ -1,14 +1,15 @@
+# Define the tasks as functions that return True upon success
+def task1():
+    print("Line 1")
+    return True
 
-new line1
-print("Feature branch change")
-HEAD
-testing merge
+def task2():
+    print("Feature branch change")
+    return True
 
-hey
-feature-test
-new line 3
-new line2
-Added new line3
-Added new line2
-new line from update-app
-New comment testing the command
+# Execute the conditional check
+if task1() and task2():
+    print("Yes")
+else:
+    print("No")
+
