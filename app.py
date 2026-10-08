@@ -1,15 +1,15 @@
-# Define the tasks as functions that return True upon success
-def task1():
+def print_line_one():
+    """Prints 'Line 1' to the console."""
     print("Line 1")
     return True
 
-def task2():
+def print_feature_branch_change():
+    """Prints 'Feature branch change' to the console."""
     print("Feature branch change")
     return True
 
-# Execute the conditional check
-if task1() and task2():
+# Execute the conditional check with descriptive functions
+if print_line_one() and print_feature_branch_change():
     print("Yes")
 else:
     print("No")
-
